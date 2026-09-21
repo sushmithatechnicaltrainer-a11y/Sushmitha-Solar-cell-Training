@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chemical Engineering Learning Hub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-blue-100 font-sans">
+
+  <!-- Navigation Bar -->
+  <nav class="bg-blue-600 text-white p-4">
+    <ul class="flex space-x-6">
+      <li><a href="#home" class="hover:text-yellow-300">Home</a></li>
+      <li><a href="#ingot-wafer" class="hover:text-yellow-300">Ingot & Wafer</a></li>
+      <li class="relative group">
+        <a href="#cell-production" class="hover:text-yellow-300">Cell Production</a>
+        <!-- Dropdown -->
+        <ul class="absolute hidden group-hover:block bg-blue-700 text-white mt-2 rounded shadow-lg">
+          <li><a href="#lecture1" class="block px-4 py-2 hover:bg-blue-500">Lecture 1: Introduction</a></li>
+          <li><a href="#lecture2" class="block px-4 py-2 hover:bg-blue-500">Lecture 2: Indosol Introduction</a></li>
+          <li><a href="#lecture3" class="block px-4 py-2 hover:bg-blue-500">Lecture 3</a></li>
+          <li><a href="#lecture4" class="block px-4 py-2 hover:bg-blue-500">Lecture 4</a></li>
+        </ul>
+      </li>
+      <li><a href="#cell-process" class="hover:text-yellow-300">Cell Process</a></li>
+      <li><a href="#quizzes" class="hover:text-yellow-300">Quizzes</a></li>
+      <li><a href="#exams" class="hover:text-yellow-300">Exams</a></li>
+      <li><a href="#forum" class="hover:text-yellow-300">Question Forum</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="flex items-center justify-center p-10">
+    <div class="flex items-center space-x-8">
+      <img src="https://via.placeholder.com/150" alt="Profile" class="rounded-full border-4 border-blue-600">
+      <div>
+        <h1 class="text-3xl font-bold text-blue-800">Dr. D. Sushmitha</h1>
+        <h2 class="text-xl text-blue-700">Chemical Engineering Specialist</h2>
+        <p class="mt-4 text-gray-700">
+          Focused on Process Intensification, Biomass Valorisation & Academic Excellence.
+          Leveraging 10+ years of expertise in Sustainable Technology, advanced coatings, and process modeling.
+        </p>
+        <div class="mt-4 space-x-4">
+          <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-800">View Career</button>
+          <button class="bg-yellow-400 text-blue-900 px-4 py-2 rounded hover:bg-yellow-500">Connect</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Example Lecture Section -->
+  <section id="lecture1" class="p-10 bg-white shadow-md m-6 rounded">
+    <h3 class="text-2xl font-semibold text-blue-800">Lecture 1: Introduction</h3>
+    <p class="mt-2 text-gray-700">This lecture covers the basics of cell production and its role in chemical engineering.</p>
+  </section>
+
+  <section id="lecture2" class="p-10 bg-white shadow-md m-6 rounded">
+    <h3 class="text-2xl font-semibold text-blue-800">Lecture 2: Indosol Introduction</h3>
+    <p class="mt-2 text-gray-700">Detailed overview of Indosol and its applications in sustainable cell production.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white text-center p-4 mt-10">
+    © 2026 Dr. D. Sushmitha. All rights reserved. | Built with Tailwind CSS
+  </footer>
+
+</body>
+</html>
