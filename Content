@@ -13,14 +13,24 @@
     <ul class="flex space-x-6">
       <li><a href="#home" class="hover:text-white-300">Home</a></li>
       <li><a href="#ingot-wafer" class="hover:text-white-300">Ingot & Wafer</a></li>
+ <!-- Dropdown -->
+        <ul class="absolute hidden group-hover:block bg-blue-700 text-white mt-2 rounded shadow-lg">
+          <li><a href="#lecture1" class="block px-4 py-2 hover:bg-dark teal-500">Lecture 1: Indosol Introduction</a></li>
+          <li><a href="#lecture2" class="block px-4 py-2 hover:bg-dark teal-500">Lecture 2: Sand to Polysilocon</a></li>
+          <li><a href="#lecture3" class="block px-4 py-2 hover:bg-dark teal-500">Lecture 3: Polysilicon to Ingot </a></li>
+          <li><a href="#lecture4" class="block px-4 py-2 hover:bg-dark teal-500">Lecture 4: Ingot to waffer</a></li>
+          <li><a href="#lecture4" class="block px-4 py-2 hover:bg-dark teal-500">Lecture 4: Quality Ingot & waffer</a></li>
+      </ul>
+      </li>
       <li class="relative group">
         <a href="#cell-production" class="hover:text-white-300">Cell Production</a>
         <!-- Dropdown -->
         <ul class="absolute hidden group-hover:block bg-blue-700 text-white mt-2 rounded shadow-lg">
-          <li><a href="#lecture1" class="block px-4 py-2 hover:bg-dark teal-500">Lecture 1: Introduction</a></li>
-          <li><a href="#lecture2" class="block px-4 py-2 hover:bg-dark teal-500">Lecture 2: Indosol Introduction</a></li>
-          <li><a href="#lecture3" class="block px-4 py-2 hover:bg-dark teal-500">Lecture 3</a></li>
-          <li><a href="#lecture4" class="block px-4 py-2 hover:bg-dark teal-500">Lecture 4</a></li>
+          <li><a href="#lecture1" class="block px-4 py-2 hover:bg-dark teal-500">Lecture 1: Cell Prooduction</a></li>
+          <li><a href="#lecture2" class="block px-4 py-2 hover:bg-dark teal-500">Lecture 2: Alkali Texturing</a></li>
+          <li><a href="#lecture3" class="block px-4 py-2 hover:bg-dark teal-500">Lecture 3: Boran Diffusion and Oxidation</a></li>
+          <li><a href="#lecture4" class="block px-4 py-2 hover:bg-dark teal-500">Lecture 4: Inline BSG and Polishing </a></li>
+
         </ul>
       </li>
       <li><a href="#cell-process" class="hover:text-white-300">Cell Process</a></li>
@@ -36,10 +46,10 @@
       <img src="https://via.placeholder.com/150" alt="Profile" class="rounded-full border-4 border-blue-600">
       <div>
         <h1 class="text-3xl font-bold text-dark teal-800">Dr. D. Sushmitha</h1>
-        <h2 class="text-xl text-blue-700">Chemical Engineering Specialist</h2>
+        <h2 class="text-xl text-blue-700">Technical Trainer</h2>
         <p class="mt-4 text-gray-700">
-          Focused on Process Intensification, Biomass Valorisation & Academic Excellence.
-          Leveraging 10+ years of expertise in Sustainable Technology, advanced coatings, and process modeling.
+          Focused on Ingot waffer, Solar cell Production and Excellence.
+          Leveraging 10+ years of expertise in Sustainable Technology, advanced coatings, and process Optimization & modeling.
         </p>
         <div class="mt-4 space-x-4">
           <button class="bg-dark teal-600 text-white px-4 py-2 rounded hover:bg-blue-800">View Career</button>
