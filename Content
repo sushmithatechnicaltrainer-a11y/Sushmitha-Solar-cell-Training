@@ -9,27 +9,27 @@
 <body class="bg-dark teal-100 font-sans">
 
   <!-- Navigation Bar -->
-  <nav class="bg-dark teal-600 text-white p-4">
+  <nav class="bg-dark teal green-600 text-white p-4">
     <ul class="flex space-x-6">
       <li><a href="#home" class="hover:text-white-300">Home</a></li>
       <li><a href="#ingot-wafer" class="hover:text-white-300">Ingot & Wafer</a></li>
  <!-- Dropdown -->
         <ul class="absolute hidden group-hover:block bg-blue-700 text-white mt-2 rounded shadow-lg">
-          <li><a href="#lecture1" class="block px-4 py-2 hover:bg-dark teal-500">Lecture 1: Indosol Introduction</a></li>
-          <li><a href="#lecture2" class="block px-4 py-2 hover:bg-dark teal-500">Lecture 2: Sand to Polysilocon</a></li>
-          <li><a href="#lecture3" class="block px-4 py-2 hover:bg-dark teal-500">Lecture 3: Polysilicon to Ingot </a></li>
-          <li><a href="#lecture4" class="block px-4 py-2 hover:bg-dark teal-500">Lecture 4: Ingot to waffer</a></li>
-          <li><a href="#lecture4" class="block px-4 py-2 hover:bg-dark teal-500">Lecture 4: Quality Ingot & waffer</a></li>
+          <li><a href="#lecture1" class="block px-4 py-2 hover:bg-dark teal green-500">Lecture 1: Indosol Introduction</a></li>
+          <li><a href="#lecture2" class="block px-4 py-2 hover:bg-dark teal green-500">Lecture 2: Sand to Polysilocon</a></li>
+          <li><a href="#lecture3" class="block px-4 py-2 hover:bg-dark teal green-500">Lecture 3: Polysilicon to Ingot </a></li>
+          <li><a href="#lecture4" class="block px-4 py-2 hover:bg-dark teal green-500">Lecture 4: Ingot to waffer</a></li>
+          <li><a href="#lecture4" class="block px-4 py-2 hover:bg-dark teal green-500">Lecture 4: Quality Ingot & waffer</a></li>
       </ul>
       </li>
       <li class="relative group">
         <a href="#cell-production" class="hover:text-white-300">Cell Production</a>
         <!-- Dropdown -->
         <ul class="absolute hidden group-hover:block bg-blue-700 text-white mt-2 rounded shadow-lg">
-          <li><a href="#lecture1" class="block px-4 py-2 hover:bg-dark teal-500">Lecture 1: Cell Prooduction</a></li>
-          <li><a href="#lecture2" class="block px-4 py-2 hover:bg-dark teal-500">Lecture 2: Alkali Texturing</a></li>
-          <li><a href="#lecture3" class="block px-4 py-2 hover:bg-dark teal-500">Lecture 3: Boran Diffusion and Oxidation</a></li>
-          <li><a href="#lecture4" class="block px-4 py-2 hover:bg-dark teal-500">Lecture 4: Inline BSG and Polishing </a></li>
+          <li><a href="#lecture1" class="block px-4 py-2 hover:bg-dark teal green-500">Lecture 1: Cell Prooduction</a></li>
+          <li><a href="#lecture2" class="block px-4 py-2 hover:bg-dark teal green-500">Lecture 2: Alkali Texturing</a></li>
+          <li><a href="#lecture3" class="block px-4 py-2 hover:bg-dark teal green-500">Lecture 3: Boran Diffusion and Oxidation</a></li>
+          <li><a href="#lecture4" class="block px-4 py-2 hover:bg-dark teal green-500">Lecture 4: Inline BSG and Polishing </a></li>
 
         </ul>
       </li>
